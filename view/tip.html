@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>提示信息-<%=content%></title>
+</head>
+<body>
+
+<div id="container">
+    <h2>提示信息: <b><%=content%></b> </h2>
+    <h3>还有 <i id="num"><%=wait%></i> 秒跳转，如果不想等待 <a id="aA" href="<%=href%>">点击我</a></h3>
+</div>
+
+<style type="text/css">
+    #container{
+        text-align: center;
+
+    }
+    #container h2{
+        color:red;
+        font-family: 'Microsoft Yahei';
+    }
+    #container h2 b{
+        color: blue;
+    }
+</style>
+
+<script type="text/javascript">
+
+    let num = document.getElementById('num')
+    let aA = document.getElementById('aA')
+
+    let nNum = num.innerHTML
+
+    setInterval(function () {
+        nNum--
+        num.innerHTML = nNum
+        if( nNum == 0 ){
+            location.href = aA.href
+        }
+    },1000)
+
+</script>
+
+</body>
+</html>

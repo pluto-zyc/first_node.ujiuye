@@ -1,0 +1,189 @@
+section {
+  width: 1000px;
+  height: auto;
+  margin: 0px auto;
+}
+section .zhuce {
+  height: auto;
+  overflow: hidden;
+  padding: 65px 0 50px 0;
+}
+section .zhuce .left {
+  float: left;
+  width: 529px;
+  border-right: 1px solid #e7e7e7;
+  overflow: hidden;
+}
+section .zhuce .left form ul li {
+  margin-bottom: 15px;
+  position: relative;
+}
+section .zhuce .left form ul li span {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+  font-size: 14px;
+  color: #333;
+}
+section .zhuce .left form ul li t {
+  display: none;
+  position: absolute;
+  left: 345px;
+  top: 8px;
+}
+section .zhuce .left form ul li input {
+  width: 260px;
+  height: 36px;
+  border: 1px solid #ddd;
+  color: #999;
+  padding: 0 0 0 2px;
+  vertical-align: middle;
+}
+section .zhuce .left form ul #yanzhengLi strong {
+  cursor: pointer;
+  display: inline-block;
+  width: 72px;
+  height: 30px;
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: -70px;
+  transform: translateY(4px);
+}
+section .zhuce .left form ul #duanxingLi #ii {
+  color: #333;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: -92px;
+  display: inline-block;
+  transform: translateY(2px);
+  padding: 0 6px;
+  background: #fff;
+  border: #fff;
+}
+section .zhuce .left form ul #duanxingLi #ii:focus,
+section .zhuce .left form ul #duanxingLi #ii:active:focus,
+section .zhuce .left form ul #duanxingLi #ii.active:focus,
+section .zhuce .left form ul #duanxingLi #ii.focus,
+section .zhuce .left form ul #duanxingLi #ii:active.focus,
+section .zhuce .left form ul #duanxingLi #ii.active.focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+section .zhuce .left form ul .last1 {
+  position: relative;
+  padding: 0 0 0 75px;
+}
+section .zhuce .left form ul .last1 button {
+  width: 265px;
+  height: 42px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  background-color: #ff4a00;
+}
+section .zhuce .left form ul .last1 #succ {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 3px;
+  font-size: 16px;
+  border-radius: 6px;
+  color: #fff;
+  background: lightgreen;
+  padding: 6px 13px;
+}
+section .zhuce .left form ul .last {
+  padding: 0 0 0 225px;
+}
+section .zhuce .left form ul .last span {
+  width: 86px;
+}
+section .zhuce .left form ul .last a {
+  margin-right: 15px;
+  color: #ff4a00;
+  cursor: pointer;
+  text-decoration: none;
+}
+section .zhuce .left form ul .last a:hover {
+  text-decoration: underline;
+}
+section .zhuce .right {
+  width: 365px;
+  padding: 0 0 0 102px;
+  overflow: hidden;
+}
+section .zhuce .right p:nth-child(2) a {
+  width: 45px;
+  height: 45px;
+}
+section .zhuce .right p:nth-child(2) a:nth-child(1) {
+  background: url(../images/qq.jpg) no-repeat 0 0;
+}
+section .zhuce .right p:nth-child(2) a:nth-child(1):hover {
+  background: url(../images/qq-2.jpg) no-repeat 0 0;
+}
+section .zhuce .right p:nth-child(2) a:nth-child(2) {
+  background: url(../images/wechat.jpg) no-repeat 0 0;
+}
+section .zhuce .right p:nth-child(2) a:nth-child(2):hover {
+  background: url(../images/wechat-2.jpg) no-repeat 0 0;
+}
+section .zhuce .right p:nth-child(2) a:nth-child(3) {
+  background: url(../images/weibo.jpg) no-repeat 0 0;
+}
+section .zhuce .right p:nth-child(2) a:nth-child(3):hover {
+  background: url(../images/weibo-2.jpg) no-repeat 0 0;
+}
+section .zhuce .right p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 20px;
+}
+section .zhuce .right p a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin: 0 15px 10px 0;
+}
+section .zhuce .right dl dt {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+section .zhuce .right dl dd {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+}
+ .zhuce #denglu_btn a{
+   display: block;
+  width: 265px;
+  height: 42px;
+  line-height: 42px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  background-color: #ff4a00;
+ }
+ .zhuce #denglu_btn{
+  width: 265px;
+  height: 42px;
+  line-height: 42px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  background-color: #ff4a00;
+ }

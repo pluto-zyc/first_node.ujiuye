@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/play.css">
+
+</head>
+
+<body>
+    <!-- 返回顶部效果 -->
+    <div id="cebian">
+        <a href="javaScript:;"></a>
+        <a href="javaScript:;"></a>
+        <a href="javaScript:;"></a>
+        <a href="javaScript:;"></a>
+        </div>
+    <!-- 顶部导航栏  所有页面共用的  我们应该将导航的样式写在public.less中-->
+    <header class="head">
+        <div class="container">
+            <a href="../index.html" class="logo"></a>
+            <ul id="nav" class="clearfix">
+                <li>
+                    <a href="#">首页</a>
+                    <em></em>
+                </li>
+                <li style="position: relative;">
+                    <a href="#">精品课程</a>
+                    <i id="icon">
+                        <span></span>
+                        <span class="none">
+                        </span>
+                    </i>
+                    <div id="bottom">
+                        <div id="box">精品选修</div>
+                        <div id="box">精品课程</div>
+                    </div>
+                    <em></em>
+                </li>
+                <li>
+                    <a href="#">在线直播</a><em></em>
+                </li>
+                <li>
+                    <a href="#">IT培训</a><em></em>
+                </li>
+                <li>
+                    <a href="#">IT培训机构</a><em></em>
+                </li>
+                <li>
+                    <a href="#">IT问答库</a><em></em>
+                </li>
+                <li>
+                    <a href="#" id="app">APP下载</a><em></em>
+                </li>
+            </ul>
+            <div class="search">
+                <div class="search-r">
+                    <a href="" class="iconfont a1">&#xe668;</a>
+                    <a href="" class="iconfont a2">&#xe612;
+                        <div class="erweima">
+                            <p><img src="../images/ujyx_16.jpg" alt="">
+                                <span>扫码下载<br>
+                                    IT优学app</span></p>
+                            <p>
+                                <img src="../images/ujyx_17.jpg" alt="">
+                                <span>扫码关注<br>中共优就业</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="/user/delu" class="iconfont">登录
+                    </a>
+                    <a href="/user/zhuce" class="iconfont">注册
+                    </a>
+                </div>
+                <div id="search_box">
+                    <input id="search-l" class="none" type="text" placeholder="搜索课程">
+                    <a href="" id="lar_icon" class="iconfont">
+                        &#xe69d;
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- 相关课程 -->
+    <section>
+        <div class="related">
+            <div class="related-l">
+                <h3>相关课程</h3>
+                <div id="list_lesson" class="clearfix">
+                    <!-- <%for(var i = 0;i<doc.length;i++){%> -->
+                   <dl id="relatedDl">
+                        <dt>
+                            <a href=""><img src="/upload/<%=doc[0].pic%>" alt=""> </a>
+                        </dt>
+                        <dd>
+                            <span><%=doc[0].title%></span>
+                            <em><%=doc[0].price%></em>
+                            <i><%=doc[0].lesson%></i>
+                            <a>试听</a>
+                        </dd>
+                    </dl>
+                  <!-- <%}%> -->
+                </div>
+            </div>
+            <div class="related-r">
+                <h3>学员评价（<span id="text_num">10</span>）</h3>
+                <ul id="commentUl">
+                    <li>
+                        <div id="tishi">
+                            请点击小星星
+                        </div>
+                       <p id="p_txt">
+                            发表评价：
+                        </p>
+                        <div id="bg">
+                            <p id="p_bg">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <strong>
+                            <span id="num">0</span>
+                            /200
+                        </strong>
+                        <p>
+                            <textarea name="" id="text_txt" cols="30" rows="10" placeholder="我也说一句"></textarea>
+                        </p>
+                        <button id="text_btn">发表</button>
+                    </li>
+                    <li>
+                        <div id="check">
+                            <input type="checkbox" id="text_pt">
+                            <label id="lable" for="">匿名评价</label>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 评论项 -->
+                <ul id="textUl">
+                    <li>
+                        <div id="top">
+                            <img src="../images/yonghu.png" alt="">
+                        </div>
+                        <div id="bottom">
+                           <div id="bottom_top">
+                              <em id="idS">  匿名用户：</em>
+                                <p id="p_bg1">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </p>
+                           </div>
+                           <h4 id="h4">老实说，很不错，不管是形式还是内容，可以看出来优就业在进步</h4>
+                           <p id="tuo">
+                               和他一起学
+                               <span>
+                                   <a href="">
+                                    03－MySQL认知与使用
+                                   </a>
+                               </span>
+                               
+                           </p>
+                           <b id="date">2019-10-17</b>
+                        </div>
+                    </li>  
+                    <li>
+                        <div id="top">
+                            <img src="../images/yonghu.png" alt="">
+                        </div>
+                        <div id="bottom">
+                           <div id="bottom_top">
+                              <em id="idS">  匿名用户：</em>
+                                <p id="p_bg1">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </p>
+                           </div>
+                           <h4 id="h4">老实说，很不错，不管是形式还是内容，可以看出来优就业在进步</h4>
+                           <p id="tuo">
+                               和他一起学
+                               <span>
+                                   <a href="">
+                                    03－MySQL认知与使用
+                                   </a>
+                               </span>
+                               
+                           </p>
+                           <b id="date">2019-10-17</b>
+                        </div>
+                    </li>  
+                </ul>
+               
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <div class="footer">
+        <div class="p">
+            <a href="javaScript:;">关于我们</a> |
+            <a href="javaScript:;">联系我们</a> |
+            <a href="javaScript:;">加入我们</a> |
+            <a href="javaScript:;">品牌荣誉</a> |
+            <a href="javaScript:;">版权申明</a> |
+            <a href="javaScript:;">网站地图</a> |
+            <a href="javaScript:;">支付方式</a> <br>
+            <a href="javaScript:;">京ICP备10218183号-88</a> 京ICP证161188号
+            <a href="javaScript:;">
+                <img src="../images/gongbei.png" alt="">
+                京公网安备11010802020723号
+                <br>
+
+                Copyright©1999-2020 北京中公教育科技有限公司 .All Rights Reserved
+            </a>
+            <div id="pic">
+                <img src="../images/yanzheng.png" alt="">
+                <img src="../images/kexin.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+    <script src="../js/zyc.js"></script>
+    <!-- <script src="../js/public1.js"></script> -->
+    <script src="../js/play.js"></script>
+</body>
+
+</html>

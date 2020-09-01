@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/keyframes.css">
+    <link rel="stylesheet" href="/css/iconfont.css">
+    <link rel="stylesheet" href="/css/public.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+    <!-- 返回顶部效果 -->
+    <div id="cebian">
+    <a href="javaScript:;">
+        <div id="wechat">
+            <i>   
+            </i>
+            <img src="http://xue.ujiuye.com/public/cimages/wx_gz_youxue_v2.jpg" alt="">
+            <h3>扫码关注中公优学网</h3>
+        </div>
+    </a>
+    <a href="javaScript:;"></a>
+    <a href="javaScript:;"></a>
+    <a href="javaScript:;"></a>
+    </div>
+    <!-- 顶部导航栏  所有页面共用的  我们应该将导航的样式写在public.less中-->
+    <header class="head">
+        <div class="container">
+            <a href="../index.html" class="logo"></a>
+            <ul id="nav" class="clearfix">
+                <li>
+                    <a href="#">首页</a>
+                    <em></em>
+                </li>
+                <li style="position: relative;">
+                    <a href="#">精品课程</a>
+                    <i id="icon">
+                        <span></span>
+                        <span class="none">
+                        </span>
+                    </i>
+                    <div id="bottom">
+                        <div id="box">精品选修</div>
+                        <div id="box">精品课程</div>
+                    </div>
+                    <em></em>
+                </li>
+                <li>
+                    <a href="#">在线直播</a><em></em>
+                </li>
+                <li>
+                    <a href="#">IT培训</a><em></em>
+                </li>
+                <li>
+                    <a href="#">IT培训机构</a><em></em>
+                </li>
+                <li>
+                    <a href="#">IT问答库</a><em></em>
+                </li>
+                <li>
+                    <a href="#" id="app">APP下载</a><em></em>
+                </li>
+            </ul>
+            <div class="search">
+                <div class="search-r">
+                    <a href="" class="iconfont a1">&#xe668;</a>
+                    <a href="" class="iconfont a2">&#xe612;
+                        <div class="erweima">
+                            <p><img src="./img/ujyx_16.jpg" alt="">
+                                <span>扫码下载<br>
+                                    IT优学app</span></p>
+                            <p>
+                                <img src="./img/ujyx_17.jpg" alt="">
+                                <span>扫码关注<br>中共优就业</span>
+                            </p>
+                        </div>
+                    </a>
+          
+                        <a id="login1" href="/user/delu" class="iconfont">登录
+                        </a>
+                        <a id="reg1" href="/user/zhuce" class="iconfont">注册
+                        </a>
+                        <a id="login2" style="display: none;" href="" class="iconfont"><%=uname%>
+                        </a>
+                        <a id="reg2" style="display: none;" href="/user/tip" class="iconfont">退出
+                        </a>
+                   
+                </div>
+                <div id="search_box">
+                    <input id="search-l" class="none" type="text" placeholder="搜索课程">
+                    <a href="" id="lar_icon" class="iconfont">
+                        &#xe69d;
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- 页面主体部分 -->
+    <section>
+        <!-- 导航内容 -->
+        <div class="selector">
+            <ul>
+                <li>
+                    <h3>互联网营销</h3>
+                    <ol>
+                        <li>SEO</li>
+                        <li>SEM</li>
+                        <li>APP</li>
+                        <li>电商</li>
+                        <li>建站</li>
+                    </ol>
+                </li>
+                <li>
+                    <h3>web前端</h3>
+                    <ol>
+                        <li>HTML</li>
+                        <li>css</li>
+                        <li>javascript</li>
+
+                    </ol>
+                </li>
+                <li>
+                    <h3>Java开发</h3>
+                    <ol>
+                        <li>基础入门</li>
+                        <li>算法分析</li>
+                        <li>微服务框架</li>
+                        <li>数据库</li>
+
+                    </ol>
+                </li>
+                <li>
+                    <h3>Phonth开发</h3>
+                    <ol>
+                        <li>基础入门</li>
+                        <li>算法分析</li>
+                        <li>机器学习</li>
+                        <li>Phonth开发</li>
+                    </ol>
+                </li>
+                <li>
+                    <h3>全链路UI/UE交互设计</h3>
+                    <ol>
+                        <li>软件基础</li>
+                        <li>平面设计</li>
+                        <li>机器学习</li>
+                        <li>Phonth开发</li>
+                    </ol>
+                </li>
+                <li>
+                    <h3>互联网营销</h3>
+                    <ol class="clearfix">
+                        <li>SEO</li>
+                        <li>SEM</li>
+                        <li>SEO</li>
+                        <li>SEO</li>
+                        <li>SEO</li>
+                    </ol>
+                </li>
+                <li>
+                    <h3>互联网营销</h3>
+                    <ol>
+                        <li>SEO</li>
+                        <li>SEM</li>
+                        <li>SEO</li>
+                        <li>SEO</li>
+                        <li>SEO</li>
+                    </ol>
+                </li>
+
+            </ul>
+        </div>
+        <!-- 轮播内容 -->
+        <div class="banner bc pr">
+            <!-- 图片部分  图片的个数取决于数据-->
+            <ul id="bannerUl">
+                <!-- <li>
+                    <img src="http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5L1478111720LGU.jpg" alt="">
+                </li> -->
+            </ul>
+            <!-- 箭头 -->
+            <a href="javascript:;" id="leftArr">
+                <</a>
+                    <a href="javascript:;" id="rightArr">></a>
+                    <!-- 序号 -->
+                    <div class="idx">
+                        <!-- 序号的个数取决于图片的个数 -->
+                        <ul id="idxUl"></ul>
+                    </div>
+        </div>
+        <!-- 广告内容 -->
+        <div class="study_main">
+            <div class="study_banb">
+                <ul>
+                    <li class="l1">
+                        <a href="">
+                            <img src="./images/study-1.jpg" title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"
+                                alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" />
+                        </a>
+                    </li>
+                    <li class="l1">
+                        <a href="">
+                            <img src="./images/study-2.jpg" title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"
+                                alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" />
+                        </a>
+                    </li>
+                    <li class="l1">
+                        <a href="">
+                            <img src="./images/study-3.jpg" title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"
+                                alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" />
+                        </a>
+                    </li>
+                    <li class="l1">
+                        <a href="">
+                            <img src="./images/study-4.jpg" title="IT培训课程-IT培训在线课程-培训-视频-教程-优就业"
+                                alt="IT培训课程-IT培训在线课程-培训-视频-教程-优就业" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 热门直播 -->
+        <div class="section-z clearfix">
+            <div class="section-h">
+                <h3>热门直播</h3>
+                <a href="#" style="margin-top: 0px;">更多</a>
+            </div>
+            <div class="section-cont" id="section-cont">
+                <ul id="ul_hot">
+                    <li class="block"><img src="./images/cont-1.jpg" alt=""></li>
+                    <li><img src="./images/cont-2.jpg" alt=""></li>
+                    <li><img src="./images/cont-3.jpg" alt=""></li>
+                    <li><img src="./images/cont-4.jpg" alt=""></li>
+                    <li><img src="./images/cont-5.jpg" alt=""></li>
+                    <li><img src="./images/cont-4.jpg" alt=""></li>
+                    <li><img src="./images/cont-5.jpg" alt=""></li>
+                </ul>
+            </div>
+            <div class="section-right" id="section-right">
+                <ul id="ul_hot_r">
+                    <li style="display: flex;align-items: center;">
+                        <span style="display: flex;flex-direction: column;">
+                            <em>
+                                直播中
+                            </em>
+                            <strong>
+                                15:00:00
+                            </strong>
+                        </span>
+                        <i>天天有好课（每天10-21点直播不间断）</i>
+                    </li>
+                    <li style="display: flex;align-items: center;">
+                        <span style="display: flex;flex-direction: column;">
+                            <em>
+                                2020-06-03
+                            </em>
+                            <strong>
+                                15:00:00
+                            </strong>
+                        </span>
+                        <i>天天有好课（每天10-21点直播不间断）</i>
+                    </li>
+                    <li style="display: flex;align-items: center;">
+                        <span style="display: flex;flex-direction: column;">
+                            <em>
+                                2020-06-03
+                            </em>
+                            <strong>
+                                15:00:00
+                            </strong>
+                        </span>
+                        <i>天天有好课（每天10-21点直播不间断）</i>
+                    </li>
+                    <li style="display: flex;align-items: center;">
+                        <span style="display: flex;flex-direction: column;">
+                            <em>
+                                2020-06-03
+                            </em>
+                            <strong>
+                                15:00:00
+                            </strong>
+                        </span>
+                        <i>天天有好课（每天10-21点直播不间断）</i>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+        <!-- 精品网课 -->
+        <div class="online w1100 bc" id="goodLesson">
+            <div class="online_h">
+                <h3>精品网课</h3>
+                <div id="selectorS">
+                    <!-- <span>互联网营销</span>
+                    <span>潮流设计</span>
+                    <span>web前端</span>
+                    <span>程序开发</span>
+                    <span>求职面试</span> -->
+                </div>
+                <a href="javascript:;">更多</a>
+            </div>
+            <div class="tab">
+                <!-- <ul id="tab_ul"> -->
+                <!-- <li>
+                        <img src="http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5I1403561524TNN.jpg?x-oss-process=image/resize,w_285" alt="">
+                        <a href="">g瓜皮大司马</a>
+                        <em>￥2999.00</em>
+                        <span>16课时</span>
+                    </li> -->
+
+                <!-- </ul> -->
+            </div>
+        </div>
+
+        <!-- 免费课程 -->
+        <div class="online-free w1100 bc">
+            <div class="online_head">
+                <h3>免费课程</h3>
+                <div id="selector1">
+                    <%for(var i = 0;i<result.length;i++){%>
+                    <span><%=result[i].name%></span>
+                    <%}%>
+                </div>
+                <a href="javascript:;">更多</a>
+            </div>
+            <div class="tab1">
+                <%for(var i = 0;i<result.length;i++){%>
+                <a href="/xq?name=<%=result[i].name%>">
+                    <ul id="tab_ul1">
+                        <li>
+                            <img src="/upload/<%=result[i].pic%>" alt="">
+                            <a href=""><%=result[i].title%></a>
+                            <em><%=result[i].price%></em>
+                            <span><%=result[i].lesson%></span>
+                        </li>
+                    </ul>
+                </a>
+                <%}%>
+            </div>
+        </div>
+        <!-- 就业面授 -->
+        <div class="online-face w1100 bc">
+            <div class="online_header">
+                <h3>就业面授</h3>
+                <div id="selector2">
+                    <!-- <span>互联网营销</span>
+                    <span>设计</span>
+                    <span>web前端</span>
+                    <span>java</span>
+                    <span>游戏开发</span>
+                    <span>python</span>
+                    <span>linux云计算</span>
+                    <span>大数据开发</span>
+                    <span>软件测试</span> -->
+                </div>
+                <a href="javascript:;">更多</a>
+            </div>
+            <div class="tab2">
+                <!-- <ul id="tab_ul2">
+                    <li>
+                        <img src="http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5I1403561524TNN.jpg?x-oss-process=image/resize,w_285" alt="">
+                        <a href="">g瓜皮大司马</a>
+                        <em>￥2999.00</em>
+                        <span>16课时</span>
+                    </li>
+                </ul> -->
+            </div>
+        </div>
+        <!-- 底部分割线部分 -->
+        <div class="online-bottom w1100 bc">
+
+            <h3>支持电脑、手机、PA多平台学习</h3>
+            <ul>
+                <li class="li1">
+                    <h6>支持苹果、安卓所有设备</h6>
+                    <p>游学在线课程均可到移动端、支持苹果安卓主流设备</p>
+                </li>
+                <li class="li2">
+                    <h6>支持苹果、安卓所有设备</h6>
+                    <p>游学在线课程均可到移动端、支持苹果安卓主流设备</p>
+                </li>
+                <li class="li3">
+                    <h6>支持苹果、安卓所有设备</h6>
+                    <p>游学在线课程均可到移动端、支持苹果安卓主流设备</p>
+                </li>
+
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- 板报 -->
+    <div class="online-banbao w1100 bc">
+        <img class="pic" src="./images/ujyx_12.jpg" alt="">
+        <div class="right">
+            <div><img src="./images/ujyx_26.jpg" alt=""></div>
+            <p>"扫描二维码"<br>"快速下载应用"</p>
+        </div>
+    </div>
+    <!-- 底部链接部分 -->
+    <dl id="dl" class="online-lianjie w1100 bc">
+        <dt>
+            <span class="selected">IT培训</span>
+            <span>友情链接</span>
+        </dt>
+        <dd class="dd1">
+            <a href="http://www.ujiuye.com/zt/kchzjz/">IT培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">软件jian培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">网络营销培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">大数据培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">java培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">web全端培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">UI交互培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">PYTHON培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">php培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">数据分析培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">微信小程序培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">linux培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">php培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">嵌入式培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">seo培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">sem培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">新媒体营销培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">电商运营培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">零基础it培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">unity培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">vr培训</a>
+        </dd>
+        <dd class="dd2">
+            <a href="http://www.ujiuye.com/zt/kchzjz/">IT培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">软件培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">网络营销培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">大数据培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">java培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">web全端培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">UI交互培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">PYTHON培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">php培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">数据分析培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">微信小程序培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">linux培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">php培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">UI交互培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">PYTHON培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">php培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">数据分析培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">微信小程序培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">linux培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">php培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">嵌入式培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">seo培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">sem培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">新媒体营销培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">电商运营培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">零基础it培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">unity培训</a>
+            <a href="http://www.ujiuye.com/zt/kchzjz/">vr培训</a>
+        </dd>
+    </dl>
+    <!-- footer -->
+    <div class="footer">
+        <div class="p">
+            <a href="javaScript:;">关于我们</a> |
+            <a href="javaScript:;">联系我们</a> |
+            <a href="javaScript:;">加入我们</a> |
+            <a href="javaScript:;">品牌荣誉</a> |
+            <a href="javaScript:;">版权申明</a> |
+            <a href="javaScript:;">网站地图</a> |
+            <a href="javaScript:;">支付方式</a> <br>
+            <a href="javaScript:;">京ICP备10218183号-88</a> 京ICP证161188号
+            <a href="javaScript:;">
+                <img src="../images/gongbei.png" alt="">
+                京公网安备11010802020723号
+                <br>
+
+                Copyright©1999-2020 北京中公教育科技有限公司 .All Rights Reserved
+            </a>
+            <div id="pic">
+                <img src="./images/yanzheng.png" alt="">
+                <img src="./images/kexin.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+    <!-- 引入ujiuye.js文件 方便我们使用其中的方法 -->
+    <script src="./js/zyc.js"></script>
+    <script src="./js/public.js"></script>
+    <!-- 引入当前页面的js 文件 -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

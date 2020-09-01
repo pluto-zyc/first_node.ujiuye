@@ -1,0 +1,768 @@
+/*主体部分*/
+section {
+  background: #f5f5f5;
+  padding-bottom: 30px;
+  /*导航部分*/
+  /*轮播部分*/
+  /*广告部分*/
+  /*热门直播*/
+  /*精品网课*/
+}
+section .selector {
+  color: white;
+  position: absolute;
+  left: -55px;
+  top: 66px;
+  width: 220px;
+  overflow: hidden;
+  z-index: 9;
+  background: #ef4736;
+  margin-left: 135px;
+  z-index: 999999;
+  opacity: .8;
+}
+section .selector ul {
+  width: 100%;
+  height: 505px;
+  padding: 10px 15px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 10px 0px;
+  list-style: none;
+  /*滚动条整体样式*/
+  /*滚动条滑块*/
+  /*滚动条轨道*/
+}
+section .selector ul::-webkit-scrollbar {
+  width: 5px;
+  height: 1px;
+}
+section .selector ul::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
+  background: #e5ff00;
+}
+section .selector ul::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px rgba(133, 131, 131, 0.4);
+  border-radius: 10px;
+  background: #fff;
+}
+section .selector ul li {
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+  clear: both;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+section .selector ul li ol {
+  list-style: none;
+  display: flex;
+}
+section .selector ul li ol li {
+  width: 30px;
+  float: left;
+  padding: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+section .banner {
+  height: 393px;
+  background-color: pink;
+  overflow: hidden;
+  width: 1349px;
+  /*轮播部分ul*/
+  /*箭头部分*/
+  /*序号部分*/
+}
+section .banner #bannerUl {
+  height: 393px;
+  position: absolute;
+}
+section .banner #bannerUl li {
+  width: 1349px;
+  float: left;
+}
+section .banner #bannerUl li img {
+  width: 1349px;
+  height: 393px;
+}
+section .banner #bannerUl li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+section .banner #leftArr {
+  position: absolute;
+  left: 300px;
+  top: 192px;
+  background: #404145;
+  text-align: center;
+  width: 38px;
+  height: 68px;
+  line-height: 68px;
+  font-size: 34px;
+  color: #ffffff;
+}
+section .banner #rightArr {
+  position: absolute;
+  right: 93px;
+  top: 192px;
+  background: #404145;
+  text-align: center;
+  width: 38px;
+  height: 68px;
+  line-height: 68px;
+  font-size: 34px;
+  color: #ffffff;
+}
+section .banner .idx {
+  position: absolute;
+  bottom: -29px;
+  left: 685px;
+}
+section .banner .idx #idxUl {
+  width: 192px;
+  height: 50px;
+  padding: 10px 0 10px 8px;
+}
+section .banner .idx #idxUl li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+section .study_main {
+  width: 100%;
+  height: auto;
+  min-width: 1200px;
+  background: #f5f5f5;
+  overflow: hidden;
+}
+section .study_main .study_banb {
+  width: 1200px;
+  height: 121px;
+  margin: 10px auto 28px;
+}
+section .study_main .study_banb ul {
+  width: 960px;
+  height: 101px;
+  margin-left: 240px;
+  background: #fff;
+  padding-top: 20px;
+}
+section .study_main .study_banb ul li {
+  width: 238px;
+  height: 81px;
+  float: left;
+  border-right: 2px dashed #f1f1f1;
+}
+section .study_main .study_banb ul li a {
+  display: block;
+  width: 190px;
+  height: 82px;
+}
+section .study_main .study_banb ul li a img {
+  display: block;
+}
+section .study_main .study_banb ul li a:hover {
+  text-decoration: none;
+}
+section .study_main .study_banb ul li.l4 {
+  border-right: none;
+}
+section .section-z {
+  background-color: #fff;
+  width: 1190px;
+  margin: 0 auto;
+  margin-top: 25px;
+  position: relative;
+  border: none;
+}
+section .section-z .section-h {
+  width: 100%;
+  height: 65px;
+  background: #f5f5f5;
+}
+section .section-z .section-h h3 {
+  float: left;
+  font-size: 30px;
+  height: 65px;
+  line-height: 64px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+section .section-z .section-h a {
+  float: right;
+  display: block;
+  height: 65px;
+  width: 50px;
+  line-height: 65px;
+  background: url(../img/ujyx_07.jpg) no-repeat 30px 26px;
+  font-size: 13px;
+  color: #666;
+  margin-top: -67px;
+}
+section .section-z .section-h a:hover {
+  color: red;
+  text-decoration: underline;
+}
+section .section-z .section-cont {
+  float: left;
+  width: 620px;
+  height: 349px;
+  position: relative;
+  /* overflow: hidden; */
+}
+section .section-z .section-cont ul li {
+  width: 620px;
+  height: 349px;
+  display: none;
+  /* display: none; */
+}
+section .section-z .section-cont ul li span {
+  display: block;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  position: absolute;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.3);
+  color: aliceblue;
+  line-height: 40px;
+  font-size: 16px;
+}
+section .section-z .section-cont ul li button {
+  width: 120px;
+  height: 60px;
+  background: #000000 url(../img/ujyx_18.gif) no-repeat 14px 21px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -60px;
+  z-index: 9999;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}
+section .section-z .section-cont ul li.active_cot {
+  display: block;
+}
+section .section-z .section-cont ul li.active_con {
+  display: none;
+}
+section .section-z .section-right {
+  width: 550px;
+  height: 349px;
+  float: right;
+  padding-left: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+section .section-z .section-right ul {
+  border-left: 1px dashed #666;
+  margin-left: 25px;
+}
+section .section-z .section-right ul li:nth-child(1) {
+  background: url(../images/ujyx_18.gif) no-repeat 0px center;
+}
+section .section-z .section-right ul li {
+  background: url(../images/ujyx_25.jpg) no-repeat 0px center;
+  width: 90%;
+  height: 58px;
+  margin-left: 10px;
+  padding-left: 45px;
+  height: 88px;
+  margin-left: -9px;
+  display: flex;
+  align-items: center;
+}
+section .section-z .section-right ul li:hover {
+  background: #fff7f3;
+}
+section .section-z .section-right ul li:hover i {
+  cursor: pointer;
+  color: #ff4d00;
+}
+section .section-z .section-right ul li span {
+  width: 90px;
+  flex-direction: column;
+  display: flex;
+  height: 58px;
+  color: #444;
+  cursor: pointer;
+}
+section .section-z .section-right ul li span em {
+  width: 90px;
+  font-size: 12px;
+  color: #666;
+  display: inline-block;
+  margin-top: 10px;
+}
+section .online {
+  margin-top: 25px;
+  position: relative;
+  /*精品网课头部*/
+  /*精品网课切换部分*/
+}
+section .online .online_h {
+  height: 65px;
+  width: 100%;
+}
+section .online .online_h h3 {
+  float: left;
+  font-size: 30px;
+  height: 65px;
+  line-height: 64px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+section .online .online_h div {
+  width: 600px;
+  height: 65px;
+  margin-left: 165px;
+  padding-left: 20px;
+}
+section .online .online_h div span {
+  display: inline-block;
+  font-size: 16px;
+  height: 65px;
+  line-height: 65px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+section .online .online_h div span:hover {
+  color: #fe4902;
+  text-decoration: underline;
+}
+section .online .online_h a {
+  float: right;
+  display: block;
+  height: 65px;
+  width: 50px;
+  line-height: 65px;
+  background: url(../img/ujyx_07.jpg) no-repeat 30px 26px;
+  font-size: 13px;
+  color: #666;
+  margin-top: -67px;
+}
+section .online .tab {
+  width: 1190px;
+  height: auto;
+  padding: 5px;
+}
+section .online .tab ul {
+  display: none;
+}
+section .online .tab ul :first-child {
+  margin-left: 0;
+}
+section .online .tab ul :nth-child(5) {
+  margin-left: 0;
+}
+section .online .tab ul li {
+  cursor: pointer;
+  width: 285px;
+  height: 255px;
+  background: #fff;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 16px;
+}
+section .online .tab ul li:hover {
+  transition: all .2s;
+  transform: translateY(-2px);
+}
+section .online .tab ul li img {
+  width: 285px;
+  height: 160px;
+}
+section .online .tab ul li a {
+  display: inline-block;
+  width: 90%;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  margin-top: 10px;
+}
+section .online .tab ul li em {
+  color: red;
+  float: left;
+  margin-left: 12px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+section .online .tab ul li span {
+  display: inline-block;
+  color: red;
+  float: right;
+  width: 63px;
+  background: #e29a9a;
+  margin-top: 20px;
+  font-size: 14px;
+  margin-right: 15px;
+}
+section .online-free {
+  margin-top: 25px;
+  position: relative;
+  /*免费头部*/
+  /*免费网课切换部分*/
+}
+section .online-free .online_head {
+  height: 65px;
+  width: 100%;
+}
+section .online-free .online_head h3 {
+  float: left;
+  font-size: 30px;
+  height: 65px;
+  line-height: 64px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+section .online-free .online_head div {
+  width: 600px;
+  height: 65px;
+  margin-left: 165px;
+  padding-left: 20px;
+}
+section .online-free .online_head div span {
+  display: inline-block;
+  font-size: 16px;
+  height: 65px;
+  line-height: 65px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+section .online-free .online_head div span:hover {
+  color: #fe4902;
+  text-decoration: underline;
+}
+section .online-free .online_head a {
+  float: right;
+  display: block;
+  height: 65px;
+  width: 50px;
+  line-height: 65px;
+  background: url(../img/ujyx_07.jpg) no-repeat 30px 26px;
+  font-size: 13px;
+  color: #666;
+  margin-top: -67px;
+}
+section .online-free .tab1 {
+  width: 1190px;
+  height: auto;
+  padding: 5px;
+}
+section .online-free .tab1 ul {
+  display: none;
+}
+section .online-free .tab1 ul :first-child {
+  margin-left: 0;
+}
+section .online-free .tab1 ul :nth-child(5) {
+  margin-left: 0;
+}
+section .online-free .tab1 ul li {
+  cursor: pointer;
+  width: 285px;
+  height: 255px;
+  background: #fff;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+section .online-free .tab1 ul li:hover {
+  transition: all .2s;
+  transform: translateY(-2px);
+}
+section .online-free .tab1 ul li img {
+  width: 285px;
+  height: 160px;
+}
+section .online-free .tab1 ul li a {
+  display: inline-block;
+  width: 90%;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  margin-top: 10px;
+}
+section .online-free .tab1 ul li em {
+  color: red;
+  float: left;
+  margin-left: 12px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+section .online-free .tab1 ul li span {
+  display: inline-block;
+  color: red;
+  float: right;
+  width: 63px;
+  background: #e29a9a;
+  margin-top: 20px;
+  font-size: 14px;
+  margin-right: 15px;
+}
+section .online-face {
+  margin-top: 25px;
+  position: relative;
+  /*面授头部*/
+  /*面授切换部分*/
+}
+section .online-face .online_header {
+  height: 65px;
+  width: 100%;
+}
+section .online-face .online_header h3 {
+  float: left;
+  font-size: 30px;
+  height: 65px;
+  line-height: 64px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+section .online-face .online_header div {
+  width: 762px;
+  height: 65px;
+  margin-left: 165px;
+  padding-left: 20px;
+}
+section .online-face .online_header div span {
+  display: inline-block;
+  font-size: 16px;
+  height: 65px;
+  line-height: 65px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+section .online-face .online_header div span:hover {
+  color: #fe4902;
+  text-decoration: underline;
+}
+section .online-face .online_header a {
+  float: right;
+  display: block;
+  height: 65px;
+  width: 50px;
+  line-height: 65px;
+  background: url(../img/ujyx_07.jpg) no-repeat 30px 26px;
+  font-size: 13px;
+  color: #666;
+  margin-top: -67px;
+}
+section .online-face .tab2 {
+  width: 1190px;
+  height: auto;
+  padding: 5px;
+}
+section .online-face .tab2 ul {
+  display: none;
+}
+section .online-face .tab2 ul :first-child {
+  margin-left: 0;
+}
+section .online-face .tab2 ul :nth-child(5) {
+  margin-left: 0;
+}
+section .online-face .tab2 ul li {
+  cursor: pointer;
+  width: 285px;
+  height: 255px;
+  background: #fff;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+section .online-face .tab2 ul li:hover {
+  transition: all .2s;
+  transform: translateY(-2px);
+}
+section .online-face .tab2 ul li img {
+  width: 285px;
+  height: 160px;
+}
+section .online-face .tab2 ul li a {
+  display: inline-block;
+  width: 90%;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  margin-top: 10px;
+}
+section .online-face .tab2 ul li em {
+  color: red;
+  float: left;
+  margin-left: 12px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+section .online-face .tab2 ul li span {
+  display: inline-block;
+  color: red;
+  float: right;
+  width: 63px;
+  background: #e29a9a;
+  margin-top: 20px;
+  font-size: 14px;
+  margin-right: 15px;
+}
+section .online-bottom h3 {
+  height: 106px;
+  line-height: 106px;
+  font-size: 26px;
+  color: #333;
+  font-family: 'Microsoft Yahei';
+  text-align: center;
+  background: url(../images/ujyx_11.jpg) no-repeat center 12px;
+}
+section .online-bottom ul {
+  width: 1200px;
+  height: 138px;
+  margin-bottom: 138px;
+}
+section .online-bottom ul li {
+  cursor: pointer;
+  padding-left: 115px;
+  width: 267px;
+  height: 136px;
+  border: 1px solid #e5e5e5;
+  margin-right: 20px;
+  float: left;
+}
+section .online-bottom ul li h6 {
+  padding-top: 22px;
+  line-height: 35px;
+  height: 35px;
+  font-size: 18px;
+  font-family: 'Microsoft Yahei';
+  font-weight: normal;
+}
+section .online-bottom ul li p {
+  line-height: 26px;
+  font-size: 14px;
+  color: #888888;
+  font-family: 'Microsoft Yahei';
+  width: 240px;
+  margin-left: 0;
+}
+section .online-bottom ul .li1 {
+  background: url(../images/ujyx_08.jpg) no-repeat 11px 22px #ffffff;
+}
+section .online-bottom ul .li1:hover {
+  border: 1px solid #fb4e38;
+}
+section .online-bottom ul .li1 h6 {
+  color: #fb4e38;
+}
+section .online-bottom ul .li2 {
+  background: url(../images/ujyx_10.jpg) no-repeat 11px 22px #ffffff;
+}
+section .online-bottom ul .li2:hover {
+  border: 1px solid #1a84f0;
+}
+section .online-bottom ul .li2 h6 {
+  color: #1a84f0;
+}
+section .online-bottom ul .li3 {
+  background: url(../images/ujyx_09.jpg) no-repeat 11px 22px #ffffff;
+  margin-right: 0;
+}
+section .online-bottom ul .li3:hover {
+  border: 1px solid #9750f8;
+}
+section .online-bottom ul .li3 h6 {
+  color: #9750f8;
+}
+.online-banbao {
+  position: relative;
+}
+.online-banbao .pic {
+  border: 0;
+  vertical-align: middle;
+  margin-top: -90px;
+}
+.online-banbao .right {
+  width: 290px;
+  height: 120px;
+  position: absolute;
+  right: 0;
+  top: -50px;
+  z-index: 1;
+}
+.online-banbao .right div {
+  width: 119px;
+  height: 115px;
+  padding-top: 4px;
+  border: 1px solid #dcdcdc;
+  float: left;
+}
+.online-banbao .right div img {
+  display: block;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+}
+.online-banbao .right p {
+  padding-top: 15px;
+  margin-left: 15px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #333;
+  font-family: 'Microsoft Yahei';
+  float: left;
+}
+.online-lianjie {
+  width: 1200px;
+  height: 161px;
+  margin: 30px auto 40px;
+}
+.online-lianjie dt {
+  height: 46px;
+  line-height: 46px;
+  font-size: 16px;
+  color: #333;
+  font-family: 'Microsoft Yahei';
+  font-weight: bold;
+}
+.online-lianjie dt span {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.online-lianjie dd {
+  line-height: 32px;
+  font-size: 14px;
+  color: #666;
+  font-family: 'Microsoft Yahei';
+}
+.online-lianjie dd a {
+  color: #666;
+  margin-right: 30px;
+}
+.online-lianjie dd a:hover {
+  text-decoration: underline;
+}
+.selected {
+  color: red !important;
+}
+/*设置选中效果的类名*/
+.active {
+  background-color: red !important;
+}

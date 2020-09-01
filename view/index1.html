@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- 给一个容器 -->
+    <div class="container">
+        <div class="row text-center">
+            <h1>学生信息管理系统</h1>
+            <hr>
+
+            <a href="" class="btn btn-success">首页</a>
+            <a href="/add" class="btn btn-warning">添加</a>
+
+            <br>
+            <br>
+        </div>
+
+
+        <div class="row">
+
+            <table class="table table-bordered table-condensed table-hover table-responsive text-center">
+                <tr>
+                    <th>ID</th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>年龄</th>
+                    <th>操作</th>
+                </tr>
+
+                <!-- 将result的数据遍历出来 -->
+
+                <%for(var i=0;i<doc.length;i++){%>
+                <tr>
+                    <td><%=doc[i]._id%></td>
+                    <td><%=doc[i].username%></td>
+                    <td><%=doc[i].sex%></td>
+                    <td><%=doc[i].age%></td>
+                    <td>
+                        <a href="/del?id=<%=doc[i]._id%>" class="btn btn-danger">删除</a>
+                        <a href="/edit?id=<%=doc[i]._id%>" class="btn btn-warning">修改</a>
+
+                    </td>
+                </tr>
+                <%}%>
+
+
+
+
+
+
+
+
+
+            </table>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+/* 导航条鼠标经过动画 */
+@keyframes nav-move{
+    0%{
+        opacity: 0;
+        transform: scale(0.4,0.4);
+    }
+    50%{
+        opacity: 1;
+        transform: scale(1.1,1.1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1,1);
+    }
+}

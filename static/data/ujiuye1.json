@@ -1,0 +1,605 @@
+{
+    "banner": [
+        {
+            "img": "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5L1478111720LGU.jpg"
+        },
+        {
+            "img": "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5J545534512ASRU.jpg"
+        },
+        {
+            "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F421384288235A6X.jpg"
+        },
+        {
+            "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4K1773460282D0K.jpg"
+        },
+        {
+            "img": "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5E279932600HHY2.jpg"
+        }
+    ],
+    "classOnline": [
+        {
+            "name": "互联网营销",
+            "details": [
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5I1403561524TNN.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【进阶】【直播】抖音自媒体电商+私域流量变现 ",
+                    "price": "￥1919.20",
+                    "lesson": "16课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F561019341759NPY.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【直播+录播】SEM与信息流精准投放-策略班",
+                    "price": "￥3999.00",
+                    "lesson": "34课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A1617792980QS5.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【进阶】【直播+录播】电商运营与创业实战特训营-店铺装修，选品，推广，优化",
+                    "price": "￥2999.00",
+                    "lesson": "35课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A1262064818QIX.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【进阶】【直播+录播】SEO与网站运营实战-网站建设与优化实操演练 ",
+                    "price": "￥3999.00",
+                    "lesson": "36课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4F1280629234U4E.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【直播】【进阶】拼多多运营实战进阶班 ",
+                    "price": "￥990.00",
+                    "lesson": "21课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A1105326772QHB.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【系统】SEO实战系统班-建站到网站优化及算法优化  ",
+                    "price": "￥2999.00",
+                    "lesson": "102课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A921611239PIZN.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【系统】电商运营系统精品课",
+                    "price": "￥680.00",
+                    "lesson": "86课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A335295876BUMO.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【系统】SEM实战系统班-广告基础投放及优化策略",
+                    "price": "￥1499.00",
+                    "lesson": "65课时"
+                }
+            ]
+        },
+        {
+            "name": "设计",
+            "details": [
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5F123376239422T.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【直播+录播】设计师必修课--平面视觉设计  ",
+                    "price": "￥2399.00",
+                    "lesson": "60课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3B1239147327DN0.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】商业手绘插画设计 让人物在你笔下活起来 ",
+                    "price": "￥299.00",
+                    "lesson": "30课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5D565452527ZPLD.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【培优】全链路UI设计之品牌视觉设计 打造一专多能的设计人才  ",
+                    "price": "￥1999.00",
+                    "lesson": "58课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3U946900086SNJP.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【培优】全链路UI设计之视觉传达 掌握基础设计软件操作 ",
+                    "price": "￥499.00",
+                    "lesson": "68课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5D20847670XHITW.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】Sketch基础与商业实战 ",
+                    "price": "￥99.00",
+                    "lesson": "12课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4E1703915011IVJ.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】PS多方位教程 学习设计基本操作",
+                    "price": "￥299.00",
+                    "lesson": "37课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4E1657329369XFW.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】AI多方位教程 轻松上手绘图功能",
+                    "price": "￥299.00",
+                    "lesson": "28课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3U354067852U28D.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【进阶】多风格ICON手机图标设计",
+                    "price": "￥59.00",
+                    "lesson": "18课时"
+                }
+            ]
+        },
+        {
+            "name": "Web前端",
+            "details": [
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A81771223NBOQT.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【直播】【系统】H5+小程序+APP多位一体 Web前端在线系统班 ",
+                    "price": "￥3999.00",
+                    "lesson": "348课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q881378921ZTAF.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【培优】打造Web前端工程师-JS交互设计",
+                    "price": "￥3199.00",
+                    "lesson": "182课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3V2096426999TCB.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【进阶】Web小程序开发基础到项目搭建 制作家常菜小程序",
+                    "price": "￥99.00",
+                    "lesson": "46课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2001/QuanGuo/F1G695156790NZUF.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【高级】React16+Redux企业级实战项目",
+                    "price": "￥599.00",
+                    "lesson": "97课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3V3658686755UE6.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【进阶】Web前端基础+小程序开发 快速制作网站页面",
+                    "price": "￥399.00",
+                    "lesson": "39课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A1815762308PN2.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】使用HTML+CSS3+H5开发企业官网项目",
+                    "price": "￥599.00",
+                    "lesson": "61课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A1666275388KXH.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【进阶】掌握JavaScript、ES6和Jqurey，实现页面交互",
+                    "price": "￥1980.00",
+                    "lesson": "108课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A812153041NNV5.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【培优】Web编程基础 掌握网页布局制作与网站商城搭建",
+                    "price": "￥499.00",
+                    "lesson": "67课时"
+                }
+            ]
+        },
+        {
+            "name": "程序开发",
+            "details": [
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5J588091928ZQP6.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【预售】AI深度学习",
+                    "price": "￥3300.00",
+                    "lesson": "76课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5Q1545802989GXW.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【培优】JavaWeb开发 从前端到后台及小米商城实战",
+                    "price": "￥2999.00",
+                    "lesson": "207课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5I393455974VUZ5.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【培优】打造Python工程师-Python全栈开发及框架实战",
+                    "price": "￥5499.00",
+                    "lesson": "52课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3U150341654TAK4.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【进阶】接口测试用例设计分析 掌握测试工具postman",
+                    "price": "￥99.00",
+                    "lesson": "19课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3U4587245492LGC.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【进阶】Selenium3 与 Python3 实战 Web自动化测试框架讲解",
+                    "price": "￥199.00",
+                    "lesson": "64课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A328849153QVJC.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】Python工程师必备的Web前端技能",
+                    "price": "￥399.00",
+                    "lesson": "74课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A1732521616XPL.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【案例】可视化Shader 实现游戏绚丽效果",
+                    "price": "￥9.90",
+                    "lesson": "6课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3V546091636QWUD.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】Python编程必须掌握的Web开发技能",
+                    "price": "￥399.00",
+                    "lesson": "40课时"
+                }
+            ]
+        },
+        {
+            "name": "Office",
+            "details": [
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/1911/QuanGuo/EBN1706380679URB.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "PPT软件的操作",
+                    "price": "￥99",
+                    "lesson": "30课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/1911/QuanGuo/EBN17200907ZQCXH.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】办公必备技能之Excel软件操作",
+                    "price": "￥99.00",
+                    "lesson": "50课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/1902/QuanGuo/E2L675748690PJ0M.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】Office办公软件“三剑客” 玩转表姐、Word哥、屁屁踢！",
+                    "price": "￥299.00",
+                    "lesson": "114课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/1911/QuanGuo/EBN141085373WXZP.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】办公必备技能之Word软件操作",
+                    "price": "￥99.00",
+                    "lesson": "32课时"
+                }
+            ]
+        }
+    ],
+    "freeLesson":[
+        {
+            "name": "互联网营销",
+            "details": [
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4N345748433EPWB.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】手把手教你开通淘宝店铺",
+                    "price": "￥0.00",
+                    "lesson": "7课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4N1298456284UKS.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】SEM账户数据精准分析推广优化",
+                    "price": "￥0.00",
+                    "lesson": "6课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4N225151398DS5V.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】短视频制作软件操作技巧 打造高质量吸睛视频",
+                    "price": "￥0.00",
+                    "lesson": "5课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5J742135072GF5Z.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】Adobe Premiere剪辑-打造短视频涨粉秘籍",
+                    "price": "￥0.00",
+                    "lesson": "5课时"
+                }
+            ]
+        },
+        {
+            "name": "设计",
+            "details": [
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4L1971580257HYN.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "PS基础图层样式养成记",
+                    "price": "￥0.00",
+                    "lesson": "7课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3Q1559609055GUC.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】【直播】PS技能学习特训营",
+                    "price": "￥0.00",
+                    "lesson": "5课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4L1369113291CIY.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "教你精准掌握PS修图与调色",
+                    "price": "￥0.00",
+                    "lesson": "4课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4L2129427972LMX.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "AI软件之场景搭建",
+                    "price": "￥0.00",
+                    "lesson": "3课时"
+                }
+            ]
+        },
+        {
+            "name": "Web前端",
+            "details": [
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3V12588814260WO.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【案例】前端经典案例-用HTML+CSS3制作跳动的心",
+                    "price": "￥0.00",
+                    "lesson": "7课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3B322854856WEC6.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】Web前端重点详解 彻底搞懂浮动、定位与动画",
+                    "price": "￥0.00",
+                    "lesson": "6课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A1016407139PD9.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】Web前端的CSS3背景设置及布局",
+                    "price": "￥0.00",
+                    "lesson": "4课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4G1305730321IXR.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【科普】Web前端基本概述及入门讲解",
+                    "price": "￥0.00",
+                    "lesson": "3课时"
+                }
+            ]
+        },
+        {
+            "name": "程序开发",
+            "details": [
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3V1935408180JXT.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】Java开发基础之MySQL数据库的基础操作",
+                    "price": "￥0.00",
+                    "lesson": "9课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3V432007500W1MT.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】Java开发基础之由HTML入门JavaWeb",
+                    "price": "￥0.00",
+                    "lesson": "8课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2003/QuanGuo/F3V1422661772IMR.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【基础】Java开发基础之领略数组的魅力",
+                    "price": "￥0.00",
+                    "lesson": "8课时"
+                },
+                {
+                    "img": "http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4A2027412848C8X.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【科普】Python+人工智能 追赶编程开发新趋势",
+                    "price": "￥0.00",
+                    "lesson": "8课时"
+                }
+            ]
+        }
+    ],
+    "faceToFace":[
+        {
+            "name": "互联网营销",
+            "details": [
+                {
+
+                    "img": "http://xue.ujiuye.com/uploads_it/1912/QuanGuo/EC52044311497MLF.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【面授】互联网营销线下学习班",
+                    "price": "￥20800.00",
+                    "lesson": "0"
+                },
+                {
+
+                    "img": "http://xue.ujiuye.com/uploads_it/1912/QuanGuo/EC61192126233R7W.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【面授】电商运营学习计划",
+                    "price": "￥16800.00",
+                    "lesson": "0"
+                }
+            ]
+        },{
+            "name": "设计",
+            "details": [
+                {
+
+                    "img": "http://xue.ujiuye.com/uploads_it/1912/QuanGuo/EC51440064189TFU.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【面授】UI交互设计学习班",
+                    "price": "￥24300.00",
+                    "lesson": "0"
+                }
+            ]
+        },{
+            "name": "Web前端",
+            "details": [
+                {
+
+                    "img": "http://xue.ujiuye.com/uploads_it/1912/QuanGuo/EC51033402038WO3.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【面授】大前端 H5+小程序+APP",
+                    "price": "￥22800.00",
+                    "lesson": "0"
+                }
+            ]
+        },{
+            "name": "Java",
+            "details": [
+                {
+
+                    "img": "http://xue.ujiuye.com/uploads_it/1912/QuanGuo/EC51408336442DD4.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【面授】Java开发学习计划",
+                    "price": "￥23800.00",
+                    "lesson": "0"
+                }
+            ]
+        },{
+            "name": "Unity游戏开发+AR/VR",
+            "details": [
+                {
+
+                    "img": "http://xue.ujiuye.com/uploads_it/1912/QuanGuo/EC51668201725OYJ.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【面授】VR/AR-Unity游戏开发班",
+                    "price": "￥23800.00",
+                    "lesson": "0"
+                }
+            ]
+        },{
+            "name": "Python",
+            "details": [
+                {
+
+                    "img": "http://xue.ujiuye.com/uploads_it/1912/QuanGuo/EC51629700743RQG.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【面授】Python+人工智能",
+                    "price": "￥23800.00",
+                    "lesson": "0"
+                }
+            ]
+        }
+        ,{
+            "name": "大数据开发",
+            "details": [
+                {
+
+                    "img": "http://xue.ujiuye.com/uploads_it/1912/QuanGuo/EC5350925938GLEZ.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【面授】Java大数据开发计划",
+                    "price": "￥24800.00",
+                    "lesson": "0"
+                }
+            ]
+        },{
+            "name": "软件测试",
+            "details": [
+                {
+
+                    "img": "http://xue.ujiuye.com/uploads_it/1912/QuanGuo/EC5661037665C3BH.jpg?x-oss-process=image/resize,w_285",
+                    "alt": "IT培训课程-IT培训在线课程-培训-视频-教程-优就业",
+                    "title": "【面授】软件测试面授课程",
+                    "price": "￥20800.00",
+                    "lesson": "0"
+                }
+            ]
+        }
+    ],
+    "correlation":[
+        {
+            "img":"http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5V383539308MC1R.jpg",
+            "title":"【直播+录播】设计师必修课--平面视觉设计",
+            "originalPrice":"￥2399.00",
+            "currentPrice":"￥2399.00",
+            "try":"试听"
+        }
+        ,
+        {
+            "img":"http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5D20847670XHITW.jpg",
+            "title":"【基础】Sketch基础与商业实战",
+            "originalPrice":"￥99.00",
+            "currentPrice":"￥99.00",
+            "try":"试听"
+        }
+        ,
+        {
+            "img":"http://xue.ujiuye.com/uploads_it/2006/QuanGuo/F6120647233054CS.jpg",
+            "title":"【基础】CINEMA 4D精品实战 向C4D视觉设计师迈出第一步",
+            "originalPrice":"￥599.00",
+            "currentPrice":"￥599.00",
+            "try":"试听"
+        }
+        ,
+        {
+            "img":"http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4L1971580257HYN.jpg",
+            "title":"PS基础图层样式养成记",
+            "originalPrice":"￥0.00",
+            "currentPrice":"￥0.00",
+            "try":"试听"
+        }
+        ,
+        {
+            "img":"http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4L1369113291CIY.jpg",
+            "title":"教你精准掌握PS修图与调色",
+            "originalPrice":"￥0.00",
+            "currentPrice":"￥0.00",
+            "try":"试听"
+        }
+        ,
+        {
+            "img":"http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4L2129427972LMX.jpg",
+            "title":"AI软件之场景搭建",
+            "originalPrice":"￥0.00",
+            "currentPrice":"￥0.00",
+            "try":"试听"
+        }
+        ,
+        {
+            "img":"http://xue.ujiuye.com/uploads_it/2005/QuanGuo/F5D565452527ZPLD.jpg",
+            "title":"【培优】全链路UI设计之品牌视觉设计 打造一专多能的设计人才",
+            "originalPrice":"￥1999.00",
+            "currentPrice":"￥1999.00",
+            "try":"试听"
+        }
+        ,
+        {
+            "img":"http://xue.ujiuye.com/uploads_it/2004/QuanGuo/F4E1657329369XFW.jpg",
+            "title":"【基础】AI多方位教程 轻松上手绘图功能",
+            "originalPrice":"￥299.00",
+            "currentPrice":"￥299.00",
+            "try":"试听"
+        }
+    ]
+}

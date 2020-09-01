@@ -1,0 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#cebian {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 10px;
+  top: 255px;
+  z-index: 999;
+}
+#cebian a {
+  padding-bottom: 12px;
+  display: block;
+  padding-left: 20px;
+  position: relative;
+}
+#cebian a:nth-child(1) {
+  display: block;
+  height: 40px;
+  width: 40px;
+  background: url(http://xue.ujiuye.com/public/images/icon_08.png) no-repeat 0 0;
+}
+#cebian a:nth-child(1):hover #wechat {
+  display: block;
+}
+#cebian a:nth-child(1) #wechat {
+  display: none;
+  top: -22px;
+  left: -173px;
+  width: 140px;
+  height: 150px;
+  position: absolute;
+  right: 54px;
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 6px;
+}
+#cebian a:nth-child(1) #wechat img {
+  width: 127px;
+  height: 129px;
+}
+#cebian a:nth-child(1) #wechat i {
+  display: inline-block;
+  width: 11px;
+  height: 20px;
+  position: absolute;
+  right: -11px;
+  top: 30px;
+  background: url(http://xue.ujiuye.com/public/images/offcn-arrow_11.png) no-repeat top center;
+}
+#cebian a:nth-child(1) #wechat h3 {
+  height: 16px;
+  width: 140px;
+  overflow: hidden;
+  line-height: 16px;
+  color: #666;
+}
+#cebian a:nth-child(1):hover {
+  background: url(http://xue.ujiuye.com/public/images/offcn-icon_06.png) no-repeat 0 0;
+}
+#cebian a:nth-child(2) {
+  display: block;
+  height: 40px;
+  width: 40px;
+  background: url(http://xue.ujiuye.com/public/images/icon_12.png) no-repeat 0 0;
+}
+#cebian a:nth-child(2):hover {
+  background: url(http://xue.ujiuye.com/public/images/offcn-icon_11.png) no-repeat 0 0;
+}
+#cebian a:nth-child(3) {
+  display: block;
+  height: 40px;
+  width: 40px;
+  background: url(http://xue.ujiuye.com/public/images/icon_19.png) no-repeat 0 0;
+}
+#cebian a:nth-child(3):hover {
+  background: url(http://xue.ujiuye.com/public/images/offcn-icon_20.png) no-repeat 0 0;
+}
+#cebian a:nth-child(4) {
+  display: none;
+  margin-top: 100px;
+  height: 40px;
+  width: 40px;
+  background: url(http://xue.ujiuye.com/public/images/icon_32.png) no-repeat 0 0;
+}
+#cebian a:nth-child(4):hover {
+  background: url(http://xue.ujiuye.com/public/images/offcn-icon_33.png) no-repeat 0 0;
+}
+header {
+  width: 100%;
+  height: auto;
+  padding: 5px 0 0 0;
+  /*版心盒子的样式*/
+}
+header .container {
+  width: 1190px;
+  height: 60px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  align-items: center;
+  /*导航*/
+  /*搜索部分*/
+}
+header .container .logo {
+  /*背景图*/
+  display: inline-blocka;
+  background: url('../images/logo.jpg');
+  width: 220px;
+  height: 32px;
+  float: left;
+  text-indent: -999999px;
+}
+header .container #nav {
+  padding-left: 14px;
+  list-style: none;
+}
+header .container #nav li:nth-child(2) {
+  width: 88px;
+}
+header .container #nav li:nth-child(2) em {
+  left: 0px;
+  top: -3px;
+}
+header .container #nav li:nth-child(3) {
+  width: 88px;
+}
+header .container #nav li:nth-child(3) em {
+  left: 0px;
+  top: -3px;
+}
+header .container #nav li:nth-child(4) {
+  width: 88px;
+}
+header .container #nav li:nth-child(4) em {
+  left: 0px;
+  top: -3px;
+}
+header .container #nav li:nth-child(5) {
+  width: 88px;
+}
+header .container #nav li:nth-child(5) em {
+  left: 0px;
+  top: -3px;
+}
+header .container #nav li:nth-child(6) {
+  width: 88px;
+}
+header .container #nav li:nth-child(6) em {
+  left: 0px;
+  top: -3px;
+}
+header .container #nav li:nth-child(2) i {
+  display: inline-block;
+  width: 8px;
+  height: 10px;
+  position: relative;
+  margin-left: 3px;
+  margin-top: -3px;
+  cursor: pointer;
+  z-index: 9;
+}
+header .container #nav li:nth-child(2) {
+  position: relative;
+}
+header .container #nav li:nth-child(2) #bottom {
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  background-color: white;
+  z-index: 9;
+  height: 0px;
+  overflow: hidden;
+  width: 80px;
+  text-align: center;
+  display: none;
+}
+header .container #nav li:nth-child(2) #bottom :first-child {
+  top: 10px;
+}
+header .container #nav li:nth-child(2) #bottom :last-child {
+  top: 40px;
+}
+header .container #nav li:nth-child(2) #bottom #box {
+  cursor: pointer;
+  color: #666;
+  font-size: 16px;
+  height: 35px;
+  margin: 0;
+}
+header .container #nav li:nth-child(2) #bottom #box:hover {
+  color: #ff4905;
+}
+header .container #nav li:nth-child(2) i span:first-child {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 6px solid black ;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-right-width: 0;
+  cursor: pointer;
+  z-index: 99;
+}
+header .container #nav li:nth-child(2) i span:last-child {
+  z-index: 99;
+  content: '';
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0;
+  border: 6px solid black ;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-width: 0;
+  cursor: pointer;
+}
+header .container #nav li {
+  justify-content: center;
+  text-align: center;
+  z-index: 99999999;
+  position: relative;
+  float: left;
+  margin-right: 14px;
+}
+header .container #nav li a:hover {
+  color: #ff4905;
+}
+header .container #nav li:hover em {
+  display: block;
+  transform: scale(1.3);
+  transition: all .2s;
+}
+header .container #nav li em {
+  position: absolute;
+  display: none;
+  width: 83px;
+  height: 30px;
+  left: -3px;
+  top: -3px;
+  background: url(http://xue.ujiuye.com/public/it/images/NavIcoActive.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+header .container #nav li a {
+  z-index: 99;
+  position: relative;
+  color: #666;
+  font-size: 16px;
+  text-decoration: none;
+}
+header .container #nav li a:nth-child(1) {
+  width: 85px;
+}
+header .container #nav li #app {
+  color: #ff4905;
+  border: 1px solid #ff4905;
+  border-radius: 3px;
+  padding: 5px;
+  height: 87px;
+  width: 32px;
+}
+header .container #nav li:nth-child(7) em {
+  position: absolute;
+  display: none;
+  width: 83px;
+  height: 30px;
+  background: url(http://xue.ujiuye.com/public/it/images/NavIcoActive.jpg) center center no-repeat;
+  background-size: 100% 100%;
+}
+header .container #nav li:nth-child(1) {
+  width: 66px;
+  height: 30px;
+  margin: 0;
+}
+header .container #nav li:nth-child(1) em {
+  width: 62px;
+  height: 30px;
+  left: 0px!important;
+  top: -3px !important;
+}
+header .container .search {
+  width: 288px;
+  position: relative;
+}
+header .container .search #search-l {
+  float: right;
+  width: 0;
+  height: 28px;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  text-align: center;
+  position: relative;
+}
+header .container .search #search_box {
+  float: right;
+  width: 138px;
+  height: 30px;
+  position: relative;
+  margin-right: -8px;
+}
+header .container .search #search_box #lar_icon {
+  position: absolute;
+  right: 7px;
+  top: 3px;
+}
+header .container .search .search-r {
+  float: right;
+}
+header .container .search .search-r .a1 {
+  font-size: 22px;
+}
+header .container .search .search-r .a2 {
+  position: relative;
+}
+header .container .search .search-r .a2 .erweima {
+  border: 1xp solid #eee;
+  position: absolute;
+  left: -60px;
+  z-index: 100;
+  font-size: 12px;
+  color: black;
+  background-color: #fff;
+  padding-left: 20px;
+  display: none;
+}
+header .container .search .search-r .a2 .erweima p {
+  display: flex;
+  width: 170px;
+  margin-bottom: 10px;
+  margin-top: 13px;
+  padding: 10px 5px;
+}
+header .container .search .search-r .a2 .erweima p span {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+header .container .search .search-r .a2:hover .erweima {
+  display: block;
+}
+header .container .search .search-r a {
+  margin-left: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+header .container .search .search-r a:nth-child(3) {
+  cursor: pointer;
+  color: #ff4905;
+  position: relative;
+  font-size: 14px;
+}
+header .container .search .search-r a:nth-child(3):hover {
+  text-decoration: underline;
+}
+header .container .search .search-r  a:nth-child(4) {
+  cursor: pointer;
+  position: relative;
+  font-size: 14px;
+}
+header .container .search .search-r a:nth-child(4):hover {
+  text-decoration: underline;
+}
+.footer {
+  background: #404144;
+  color: #999;
+  line-height: 28px;
+  text-align: center;
+  padding: 34px 0;
+  min-width: 1200px;
+}
+.footer .p {
+  transform: translateX(-58px);
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+}
+.footer .p a {
+  color: #999;
+  text-decoration: none;
+  padding: 0 7px;
+}
+.footer .p a:hover {
+  color: #ff4d00;
+}
+.footer #pic {
+  position: absolute;
+  right: -147px;
+  top: 46px;
+}
+/*版心样式*/
+.w1100 {
+  width: 1190px;
+}
+.selected {
+  color: red !important;
+}
+.select {
+  color: green !important;
+}
+.none {
+  display: none!important;
+}
+.block {
+  display: block!important;
+}
+.active_bg {
+  background-color: #ff4b04!important;
+}
+/*设置选中效果的类名*/
+.active {
+  background-color: red !important;
+}
+.play_bg {
+  color: #ff740f!important;
+  background-color: #000!important;
+}
+.play_bg1 {
+  color: #ff740f!important;
+  background-color: #fff!important;
+}
+.xianlu_bg {
+  background-color: #18B160!important;
+}
+.xianlu_bg em {
+  display: block!important;
+  display: inline-block !important;
+}
+.beisu_bg {
+  background-color: #18B160!important;
+}
+.mulu_bor {
+  border-bottom: 3px solid #2693e0!important;
+  color: #2693e0!important;
+}

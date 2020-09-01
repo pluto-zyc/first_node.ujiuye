@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+       <!-- 给一个容器 -->
+       <div class="container">
+        <div class="row text-center" >
+            <h1>学生信息管理系统</h1>
+            <hr>
+
+            <a href="" class="btn btn-success">首页</a>
+            <a href="" class="btn btn-warning">添加</a>
+
+            <br>
+            <br>
+        </div>
+
+        <!-- col-md-8 中等屏幕的8  12 -->
+       <form action="/edit" method="post" role="form" class="col-md-5">
+        
+        <div class="row">
+            <div class="form-group col-md-5">
+                <label for="name">姓名</label>
+                <input type="text" name="name" value="<%=result[0].username%>" id="name" class="form-control">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-5">
+                <label for="sex">性别</label>
+                <input type="text" name="sex" value="<%=result[0].sex%>" id="sex" class="form-control">
+            </div>
+        </div>
+       <input type="hidden" name="id" id="" value="<%=result[0]._id%>">
+        
+        <div class="row">
+            <div class="form-group col-md-5">
+                <label for="age">年龄</label>
+                <input type="text" name="age" id="age" value="<%=result[0].age%>" class="form-control">
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="text-center col-md-5">
+                <button type="submit" class="btn btn-success">提交</button>
+                <button type="reset" class="btn btn-danger">重置</button>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+       </form>
+
+            
+
+
+
+
+        
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
